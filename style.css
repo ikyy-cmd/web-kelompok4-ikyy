@@ -780,3 +780,41 @@ nav {
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
+
+.kelompok {
+    background: #f5f7fa;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.kelompok img {
+    width: 320px;
+    border-radius: 12px;
+    margin: 15px 0;
+}
+
+.kelompok ul {
+    list-style: none;
+    padding: 0;
+}
+
+.kelompok li {
+    margin: 6px 0;
+}
+
+/* SAMAKAN UKURAN MENU NAV DI HP */
+@media (max-width: 768px) {
+
+    nav a,
+    .dropbtn {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+        font-size: 16px;
+        display: block;
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+}
