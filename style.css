@@ -127,17 +127,31 @@ footer {
     }
 
     /* NAVBAR */
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: #0a3d62;
+    padding: 10px;
+}
 
-    nav a,
-    .dropbtn {
-        margin: 6px 0;
-        font-size: 15px;
-    }
+/* MENU LINK */
+nav a {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+/* PROGRAM KEAHLIAN (SELECT) */
+nav select {
+    font-size: 15px !important;
+    font-family: Arial, sans-serif !important;
+    height: 32px;
+    padding: 0 8px;
+    border-radius: 4px;
+}
 
     /* DROPDOWN */
     .dropdown-content {
@@ -817,4 +831,12 @@ nav {
     .dropdown {
         width: 100%;
     }
+}
+
+nav a,
+nav select {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    height: 40px;
+    line-height: 40px;
 }
